@@ -1,0 +1,35 @@
+PODS:
+  - componentDyyTest (0.1.0)
+  - Expecta (1.0.5)
+  - Expecta+Snapshots (3.0.0):
+    - Expecta (~> 1.0)
+    - FBSnapshotTestCase/Core (~> 2.0)
+    - Specta (~> 1.0)
+  - FBSnapshotTestCase (2.1.2):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.2)
+  - FBSnapshotTestCase/Core (2.1.2)
+  - FBSnapshotTestCase/SwiftSupport (2.1.2):
+    - FBSnapshotTestCase/Core
+  - Specta (1.0.5)
+
+DEPENDENCIES:
+  - componentDyyTest (from `../`)
+  - Expecta
+  - Expecta+Snapshots
+  - FBSnapshotTestCase
+  - Specta
+
+EXTERNAL SOURCES:
+  componentDyyTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  componentDyyTest: 598a829622483b2dc366ba3721c9f65f28c25264
+  Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
+  Expecta+Snapshots: c343f410c7a6392f3e22e78f94c44b6c0749a516
+  FBSnapshotTestCase: 918c55861356ee83aee7843d759f55a18ff6982b
+  Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
+
+PODFILE CHECKSUM: f591949d5806aa4e57f32ed4f2166284250827e5
+
+COCOAPODS: 1.0.1
